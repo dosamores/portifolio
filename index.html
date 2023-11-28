@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image"style="width: 500px; border-top-right-radius: 100px; border-bottom-left-radius:102px ;">
+                    <img src="img/Hero.jpg" alt="" style="width: 500px; border-top-right-radius: 100px; border-bottom-left-radius:100px ;">
+                </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name" id="typed-text" >
+                  Olá, sou <span style="color: orange;">Hilton Dos Amores.</span>
+                    
+                </h1>
+                <h3 >Web developer</h3>
+                
+               
+                
+                <script>
+                   const text = "Olá, sou <span class='green-text'>Hilton Dos Amores.</span> ";
+                    let index = 0;
+            
+                    function type() {
+                        document.getElementById('typed-text').innerHTML = text.slice(0, index);
+                        index++;
+            
+                        if (index > text.length) {
+                            index = 0;
+                            setTimeout(type, 2000); // Adiciona uma pausa de 2000 milissegundos (2 segundos)
+                        } else {
+                            setTimeout(type, 50); // Ajuste o intervalo durante a digitação conforme desejado
+                        }
+                    }
+            
+                    type();
+                </script>
+                
+                
+
+
+                <p style="text-align: justify;    width: 460px; ">
+                    Sou um apaixonado estudante de informática. Desde a infância, minha fascinação por computadores me impulsionou a explorar o vasto campo da tecnologia. Na universidade, escolhi me especializar em desenvolvimento de sistemas, participando ativamente de cursos, workshops e projetos práticos.
+                
+                    Em 2023, fui honrado com o primeiro lugar nas Jornadas Científicas Estudantis da Universidade Save, destacando-me por um projeto inovador, o Uniteca Versão web. Minha busca pela excelência se reflete não apenas em prêmios, mas também em participações em grupos estudantis e estágios práticos.
+                
+                    Acredito no poder transformador da tecnologia e vejo minhas conquistas como o começo de uma jornada contínua de aprendizado e contribuição para a informática. Estou ansioso para enfrentar novos desafios e explorar as infinitas possibilidades tecnológicas que o futuro reserva.
+                </p>
+                
+                <div class="btn-con" style="margin-left: 20px;">
+                    <div class="submit-btn">
+                        <a href="CV-Hilton Dos Amores.pdf" class="main-btn" target="_blank">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>Sobre <span>mim</span><span class="bg-text">Minhas Estátísticas </span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>INFORMAÇÕES SOBRE MIM</h4>
+      
+                        <p style="text-align: justify; width: 500px;">
+                            
+Meu nome é Hilton dos Amores, um entusiasta de informática com 4 anos de experiência. Desenvolvi habilidades sólidas em Desenvolvimento Web, Aplicações Móveis e Websites, superando desafios ao longo da minha jornada profissional. Além do meu envolvimento profissional, tenho paixão por cantar, dançar e também sou entusiasta do mergulho. Esses interesses pessoais refletem minha busca por equilíbrio entre tecnologia e expressão criativa. Estou sempre aberto a novas oportunidades e desafios, ansioso para contribuir significativamente em projetos alinhados com meus valores e paixões. A combinação única de
+ habilidades técnicas e interesses diversos me capacita a abordar projetos de maneira holística e inovadora.
+                        </p>
+                       
+                        <div class="btn-con">
+                            <div class="submit-btn">
+                                <a href="CV-Hilton Dos Amores.pdf" class="main-btn" target="_blank">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                </div>
+           
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">20+</p>
+                            <p class="small-text">Projectos  <br /> Desenvolvidos</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">4+</p>
+                            <p class="small-text">Anos de  <br /> experiencia</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">30+</p>
+                            <p class="small-text">Clientes <br /> Felizes</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">400+</p>
+                            <p class="small-text">Customer <br /> reviews</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">Minhas habilidades</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">html5</p>
+                        <div class="progress-con">
+                            <p class="prog-text">89%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">css3</p>
+                        <div class="progress-con">
+                            <p class="prog-text">95%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">PHP</p>
+                        <div class="progress-con">
+                            <p class="prog-text">89%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">NodeJS</p>
+                        <div class="progress-con">
+                            <p class="prog-text">87%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">C#</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Python</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Laravel</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Photoshop</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div> <div class="progress-bar">
+                        <p class="prog-title">WordPress</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Java</p>
+                        <div class="progress-con">
+                            <p class="prog-text">95%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">Quasar</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="stat-title">Minha linha de tempo</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2020 - present</p>
+                    <h5>Licenciatura em Informatica <span> - Universidade Save</span></h5>
+                    <p>
+                        Com habilitacões em desenvolvimento de sistemas 
+                    </p>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 </p>
+                    <h5>Networking Essentials<span> - Cisco</span></h5>
+                    <p>
+                       
+"Networking Essentials - Cisco" é um curso abrangente que se concentra nos princípios fundamentais e 
+nas práticas essenciais de redes de computadores usando tecnologias e equipamentos Cisco.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2014 - 2016 Junho</p>
+                    <h5>Sistemas Informáticos<span> - ICCA.</span></h5>
+                    <p>
+                       Curso médio tecnico profissional em sistemas informaticos 
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">Novembro - 2023</p>
+                    <h5>Power BI<span> - Empowerdata</span></h5>
+                    <p>
+                       
+O Power BI é uma plataforma de análise de dados e business intelligence desenvolvida pela Microsoft. Projetada para auxiliar na visualização e compartilhamento de insights a partir de dados, o Power BI oferece uma 
+variedade de ferramentas e recursos para transformar dados brutos em informações significativas.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">Junho - dezembro  2016</p>
+                    <h5>Estágio Tecnico Profissional<span> - Rádio Mocambique</span></h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023- present</p>
+                    <h5>Python<span> - UEM</span></h5>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>Meu <span> Portifólio de Projectos</span><span class="bg-text">Meu trabalho</span></h2>
+            </div>
+            <p class="port-text">
+                Cada projecto reflete minha paixão pela inovação, resolução de problemas e comprometimento com a entrega de soluções de alta qualidade.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/carregador.png" alt="" style="width: 500PX;">
+                    </div>
+                    <div class="hover-items">
+                        <h3 style="margin-left: 10PX; ">Sistema de gestão de Biblioteca Da Unisave</h3>
+                       <P style="text-align: justify; padding: 10PX; font-size: 13px;">
+                        O Uniteca é um sistema de gestão de biblioteca desenvolvido em Java, projetado para proporcionar uma administração eficiente e organizada dos recursos bibliotecários. Este sistema foi criado para atender às necessidades específicas de bibliotecas,
+                         oferecendo uma variedade de funcionalidades para otimizar as operações diárias.</P>
+                        <div class="icons">
+                            <a href="https://github.com/dosamores/CRUD_QUASAR" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/uniteca.png" alt="" style="width: 500PX;">
+                    </div>
+                    <div class="hover-items">
+                        <h3 style="margin-left: 10PX; ">Sistema de gestão de Biblioteca Da Unisave</h3>
+                       <P style="text-align: justify; padding: 10PX; font-size: 13px;">
+                        O Uniteca representa uma inovação no universo da gestão de bibliotecas, oferecendo uma abordagem totalmente web para simplificar e aprimorar as operações bibliotecárias. Este sistema, acessível a partir de qualquer dispositivo conectado à internet,
+                         foi meticulosamente projetado para proporcionar uma experiência ágil, eficiente e moderna.</P>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+            </div>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/1675291744444.jpeg" alt="" style="width: 500PX;">
+                    </div>
+                    <div class="hover-items">
+                        <h3 style="margin-left: 10PX; ">Sistema de gestão de vendas </h3>
+                       <P style="text-align: justify; padding: 10PX; font-size: 13px;">
+                        O sistema de gestão proposto para supermercados visa otimizar e simplificar as operações diárias, proporcionando uma solução abrangente para gerenciar eficientemente todas as facetas do negócio. A plataforma é projetada para ser acessível a partir de qualquer dispositivo conectado à internet, oferecendo uma abordagem moderna e ágil para a administração do supermercado.</P>
+                        <div class="icons">
+                            <a href="https://github.com/dosamores/quasarEstoque" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/Velha-Apostolica.jpg" alt=""style="width: 500PX;">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Aplicativo de gestão de igreja</h3>
+                        <div class="icons">
+                            <a href="https://github.com/dosamores/O.A.C" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            
+                            <a href="https://github.com/dosamores/O.A.C" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                
+                
+            </div>
+
+
+
+
+            
+        </section>
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>Meus <span>Blogs</span><span class="bg-text">Meus Blogs</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="img/port6.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                How to Create Your Own Website
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                How to Become an Expert in Web Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog2.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Become a Web Designer in 10 Days
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>Meus <span>Blogs</span><span class="bg-text">Meus Blogs</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog" style="width: 500px; height: auto; margin: 5 auto; overflow: hidden;">
+                        <div class="carousel" style="display: flex; transition: transform 0.5s ease-in-out;">
+                            <img src="img/carregador.png" alt="" style="width: 500px; height: 300px;">
+                            <img src="img/Login.png" alt="" style="width: 500px; height: 300px;">
+                            <img src="img/menuBibliotecario.png" alt="" style="width: 550px; height: 300px;">
+                        </div>
+                    
+                    
+                 
+                    
+                        <div class="blog-text">
+                            <h4>
+                               Sistema de gestão de Biblioteca Da Unisave
+                            </h4>
+                            <p style="text-align: justify;">
+                                O Uniteca é um sistema de gestão de biblioteca desenvolvido em Java,
+                                 projetado para proporcionar uma administração eficiente e organizada dos recursos bibliotecários.
+                                  Este sistema foi criado para atender às necessidades específicas de bibliotecas, 
+                                oferecendo uma variedade de funcionalidades para otimizar as operações diárias.
+                            </p>
+                            
+                        </div>
+                        <div class="contact-icons" style="text-align: center;">
+                            <div class="contact-icon">
+                                <a href="https://github.com/dosamores" target="_blank" style="display: inline-block; padding: 10px 20px; margin-bottom: 10px; background-color: #333; color: #fff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#555'" onmouseout="this.style.backgroundColor='#333'">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    
+                    
+                    <div class="blog" style="width: 500px; height: auto; margin: 5 auto; overflow: hidden;">
+                        <div class="carousel" style="display: flex; transition: transform 0.5s ease-in-out;">
+                            <img src="img/carregador.png" alt="" style="width: 500px; height: 300px;">
+                            <img src="img/Login.png" alt="" style="width: 500px; height: 300px;">
+                            <img src="img/menuBibliotecario.png" alt="" style="width: 550px; height: 300px;">
+                        </div>
+                    
+                    
+                 
+                    
+                        <div class="blog-text">
+                            <h4>
+                               Sistema de gestão de Biblioteca Da Unisave
+                            </h4>
+                            <p style="text-align: justify;">
+                                O Uniteca é um sistema de gestão de biblioteca desenvolvido em Java,
+                                 projetado para proporcionar uma administração eficiente e organizada dos recursos bibliotecários.
+                                  Este sistema foi criado para atender às necessidades específicas de bibliotecas, 
+                                oferecendo uma variedade de funcionalidades para otimizar as operações diárias.
+                            </p>
+                            
+                        </div>
+                        <div class="contact-icons" style="text-align: center;">
+                            <div class="contact-icon">
+                                <a href="https://github.com/dosamores" target="_blank" style="display: inline-block; padding: 10px 20px; margin-bottom: 10px; background-color: #333; color: #fff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#555'" onmouseout="this.style.backgroundColor='#333'">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="blog" style="width: 500px; height: auto; margin: 5 auto; overflow: hidden;">
+                        <div class="carousel" style="display: flex; transition: transform 0.5s ease-in-out;">
+                            <img src="img/carregador.png" alt="" style="width: 500px; height: 300px;">
+                            <img src="img/Login.png" alt="" style="width: 500px; height: 300px;">
+                            <img src="img/menuBibliotecario.png" alt="" style="width: 550px; height: 300px;">
+                        </div>
+                    
+                    
+                 
+                    
+                        <div class="blog-text">
+                            <h4>
+                               Sistema de gestão de Biblioteca Da Unisave
+                            </h4>
+                            <p style="text-align: justify;">
+                                O Uniteca é um sistema de gestão de biblioteca desenvolvido em Java,
+                                 projetado para proporcionar uma administração eficiente e organizada dos recursos bibliotecários.
+                                  Este sistema foi criado para atender às necessidades específicas de bibliotecas, 
+                                oferecendo uma variedade de funcionalidades para otimizar as operações diárias.
+                            </p>
+                            
+                        </div>
+                        <div class="contact-icons" style="text-align: center;">
+                            <div class="contact-icon">
+                                <a href="https://github.com/dosamores" target="_blank" style="display: inline-block; padding: 10px 20px; margin-bottom: 10px; background-color: #333; color: #fff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#555'" onmouseout="this.style.backgroundColor='#333'">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+ <div class="blog-text">
+                            <h4>
+                               Sistema de gestão de Biblioteca Da Unisave
+                            </h4>
+                            <p style="text-align: justify;">
+                                O Uniteca é um sistema de gestão de biblioteca desenvolvido em Java,
+                                 projetado para proporcionar uma administração eficiente e organizada dos recursos bibliotecários.
+                                  Este sistema foi criado para atender às necessidades específicas de bibliotecas, 
+                                oferecendo uma variedade de funcionalidades para otimizar as operações diárias.
+                            </p>
+                            
+                        </div>
+                        <div class="contact-icons" style="text-align: center;">
+                            <div class="contact-icon">
+                                <a href="https://github.com/dosamores" target="_blank" style="display: inline-block; padding: 10px 20px; margin-bottom: 10px; background-color: #333; color: #fff; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='#555'" onmouseout="this.style.backgroundColor='#333'">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+            </div>
+            
+        </section>
+
+        <section class="container" id="testimonials" style="padding: 20px 10px; background-color: #191D2B; color: #fff;">
+            <div style="max-width: 1200px; margin: 0 auto; text-align: center;">
+                <h1 style="font-size: 32px; color:  rgb(233, 79, 8);; margin-bottom: 30px; font-size: 70px;">Depoimentos</h1>
+                
+                <h1 style="margin-top: 20px;"> Recomendações</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+                <div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+    
+                    <div style="background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); padding: 20px; flex: 0 0 calc(25% - 20px); margin-bottom: 20px;">
+                        <img src="img/Bonifacio Alfredo 20231128_090915.jpg" alt="Cliente 1" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;">
+                        <h3 style="font-size: 18px; color: #333; margin-bottom: 10px;">Bonifácio Alfredo Chicale</h3>
+                        <p style="font-size: 14px; color: #666;">"Excelente serviço! Estou muito satisfeito com a qualidade do trabalho."</p>
+                    </div>
+    
+                    <div style="background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); padding: 20px; flex: 0 0 calc(25% - 20px); margin-bottom: 20px;">
+                        <img src="img/20230914_081120.png" alt="Cliente 2" style="width: 200px; height: 190px; border-radius: 50%; margin-bottom: 10px;">
+                        <h3 style="font-size: 18px; color: #333; margin-bottom: 10px;">Izildo Joaquim Mulima</h3>
+                        <p style="font-size: 14px; color: #666;">"Profissionais altamente competentes. Recomendo a todos!"</p>
+                    </div>
+    
+                    <div style="background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); padding: 20px; flex: 0 0 calc(25% - 20px); margin-bottom: 20px;">
+                        <img src="img/Imagem WhatsApp 2023-11-28 às 07.56.18_15301879.jpg" alt="Cliente 3" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;">
+                        <h3 style="font-size: 18px; color: #333; margin-bottom: 10px;">Simão Mabasso Jr</h3>
+                        <p style="font-size: 14px; color: #666;">"Completamente satisfeito com o serviço. Profissionalismo exemplar.""</p>
+                    </div>
+    
+                    <div style="background-color: #fff; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); padding: 20px; flex: 0 0 calc(25% - 20px); margin-bottom: 20px;">
+                        <img src="img/port3.jpg" alt="Cliente 4" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;">
+                        <h3 style="font-size: 18px; color: #333; margin-bottom: 10px;">Phillips & Langa</h3>
+                        <p style="font-size: 14px; color: #666;">"Entregaram além das minhas expectativas. Serviço de primeira."</p>
+                    </div>
+    
+                </div>
+            </div>
+            <br><br>
+            <br><br>
+
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contacte- <span>Me</span><span class="bg-text">Contacte-me</span></h2>
+                </div>
+           
+        <br>
+        <br>
+        <br>
+            <div style="max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #fff; color: #333; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); text-align: left; border-radius: 10px;">
+                <br>
+                <p style="color: #666; text-align: center;">
+                    Se você tiver alguma dúvida ou quiser entrar em contacto, sinta-se à vontade para enviar uma mensagem.
+                </p>
+                
+                <br>
+                    <h4 style="font-size: 18px; color:  rgb(233, 79, 8);; text-align: center;"><h3 style="font-size: 18px; color:  rgb(233, 79, 8); text-align: center; font-size: 30px;">  Informações de Contacto</h3></h4><br>
+                    <hr style="background-color:  rgb(233, 79, 8);; width: 200px; margin: 0 auto;"><br>
+                    <div style="max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #fff; color: #333; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); display: flex; justify-content: space-between; border-radius: 10px;">
+
+                       
+
+    <!-- Informações de Contato -->
+    <div style="width: 48%;">
+       
+       
+        <div style="margin-top: 20px;">
+            <div>
+                <i class="fas fa-map-marker-alt" style="margin-right: 10px; color:  rgb(233, 79, 8);"></i>
+                <span style="color: #333; font-weight: bold;">Localização:</span>
+                <p style="color: #666;">Maputo, Chongoene, Moçambique</p>
+            </div>
+            <div style="margin-top: 10px;">
+                <i class="fas fa-envelope" style="margin-right: 10px; color:  rgb(233, 79, 8);"></i>
+                <span style="color: #333; font-weight: bold;">Email:</span>
+                <p style="color: #666;">hiltondos@gmail.com</p>
+            </div>
+            <div style="margin-top: 10px;">
+                <i class="fas fa-phone-alt" style="margin-right: 10px; color:  rgb(233, 79, 8);"></i>
+                <span style="color: #333; font-weight: bold;">Chamadas:</span>
+                <p style="color: #666;">+258 877994420</p>
+            </div>
+            <div style="margin-top: 10px;">
+                <i class="fab fa-whatsapp" style="margin-right: 10px; color:  rgb(233, 79, 8);"></i>
+                <span style="color: #333; font-weight: bold;">Whatsapp:</span>
+                <p style="color: #666;">+258 846994420</p>
+            </div>
+        </div>
+        <br>
+        <div style="text-align: center;">
+            <a href="https://www.facebook.com/hiltondos" target="_blank" style="display: inline-block; margin: 0 10px; padding: 5px 20px; background-color: #0866FF; color: #fff; border-radius: 5px; text-decoration: none; transition: background-color 0.3s ease;">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://www.linkedin.com/in/hilton-dos-amores-168899288/" target="_blank" style="display: inline-block; margin: 0 10px; padding: 5px 20px; background-color: #0866FF; color: #fff; border-radius: 5px; text-decoration: none; transition: background-color 0.3s ease;">
+                <i class="fab fa-linkedin"></i> Linkedin
+            </a>
+            <a href="https://github.com/dosamores?tab=repositories" target="_blank" style="display: inline-block; margin: 0 10px; padding: 5px 20px; background-color: #000; color: #fff; border-radius: 5px; text-decoration: none; transition: background-color 0.3s ease;">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            
+        </div>
+        
+    </div>
+
+    <!-- Formulário de Contato -->
+    <div style="width: 48%;">
+        <form action="#" style="text-align: left;">
+            
+            <div style="margin-top: 20px;">
+                <div style="margin-bottom: 10px;">
+                    <label for="name" style="font-weight: bold;">Nome:</label>
+                    <input type="text" id="name" name="name"  placeholder="Digite seu Nome" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="email" style="font-weight: bold;">Email:</label>
+                    <input type="email" id="email" name="email"placeholder="Digite seu e-mail" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;">
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <label for="message" style="font-weight: bold;">Mensagem:</label>
+                    <textarea id="message" name="message" cols="25" rows="5" placeholder="Digite sua mensagem" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+                </div>
+                <div>
+                    <button type="submit" style="width: 100%; padding: 10px; background-color:  rgb(233, 79, 8); color: #fff; border: none; border-radius: 5px; cursor: pointer;">Enviar Mensagem</button>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>
+                    
+                    
+                </div>
+                
+                    
+                    <!-- Adicione mais informações de contato conforme necessário -->
+                </div>
+                
+            </div>
+        
+            
+            <br><br>
+            
+    <footer style="background-color: #333; color: #fff; padding: 20px 0;">
+        <div style="display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: 0 auto;">
+           
+           
+        </div>
+        <div style="background-color: #222; text-align: center; padding: 10px 0;">
+            <p style="color: #fff;">Todos os direitos reservados. | <a href="politica_de_privacidade.html" style="text-decoration: none; color: #fff;">Política de Privacidade</a><br>&copy; 2023 </p>
+        </div>
+    </footer>
+            
+        </section>
+        
+        
+    </main>
+
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="testimonials">
+            <i class="fas fa-users"></i>
+        </div>
+        
+        
+        
+    </div>
+    
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+
+
+
+    
+    <script src="app.js"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const carousel = document.querySelector(".carousel");
+            let currentIndex = 0;
+            let isPaused = false;
+            let intervalId;
+    
+            function nextSlide() {
+                if (!isPaused) {
+                    currentIndex = (currentIndex + 1) % carousel.children.length;
+                    updateCarousel();
+                }
+            }
+    
+            function updateCarousel() {
+                const translateValue = -currentIndex * 100 + "%";
+                carousel.style.transform = "translateX(" + translateValue + ")";
+            }
+    
+            function pauseCarousel() {
+                isPaused = true;
+                clearInterval(intervalId);
+            }
+    
+            function resumeCarousel() {
+                isPaused = false;
+                intervalId = setInterval(nextSlide, 3000);
+            }
+    
+            intervalId = setInterval(nextSlide, 3000); // Altera a imagem a cada 3 segundos
+        });
+    </script>
+    
+</body>
+</html>
